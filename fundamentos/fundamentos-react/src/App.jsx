@@ -19,7 +19,10 @@ function App() {
       <p className='texto'>Meu texto</p>
       <TemplateExpressions/>
       <Events/>
-      
+      {/* colocando imagemn em public */}
+      <div>
+        <img src="/img.png" alt="mario-bros" width={'50px'}/>
+      </div>
     </>
   );
 };
