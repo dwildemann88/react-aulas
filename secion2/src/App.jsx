@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import City from './assets/img2.jpg'
 import ManageData from './components/ManageData'
+import { ListRender } from './components/ListRender'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         </div>
         <div>
           <ManageData/>
+          <ListRender/>
         </div>
       </div>
     </>
